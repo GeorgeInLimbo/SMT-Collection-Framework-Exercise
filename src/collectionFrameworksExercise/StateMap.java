@@ -6,7 +6,8 @@ import java.util.TreeMap;
  * 
  * <b>Title:</b> StateMap.java<br>
  * <b>Project:</b> collectionFrameworksExercise<br>
- * <b>Description:</b> <br>
+ * <b>Description:</b> This class builds and displays a TreeMap to the console
+ * in its given order, as well as its reverse order.<br>
  * <b>Copyright:</b> Copyright (c) 2023<br>
  * <b>Company:</b> Silicon Mountain Technologies<br>
  * 
@@ -40,7 +41,7 @@ public class StateMap {
 	}
 
 	/**
-	 * This method prints a TreeMap in it's inherent order.
+	 * This method prints a TreeMap in its inherent order.
 	 * 
 	 * @param m Takes a parameter of a TreeMap with a requirement for two Strings
 	 */
@@ -55,7 +56,7 @@ public class StateMap {
 	 * @param m Takes a parameter of a TreeMap with a requirement for two Strings
 	 */
 	public void printMapReverse(TreeMap<String, String> m) {
-		System.out.println("This is the map in reversed order");
+		System.out.println("This is the map in reversed order:");
 		System.out.println(m.descendingMap());
 	}
 
