@@ -8,7 +8,8 @@ import java.util.List;
  * 
  * <b>Title:</b> PeopleList.java<br>
  * <b>Project:</b> collectionFrameworksExercise<br>
- * <b>Description:</b> This class utilizes the Person class to create an ArrayList of old SNL guys in the given order and then a shuffled order.<br>
+ * <b>Description:</b> This class utilizes the Person class to create an
+ * ArrayList of old SNL guys in the given order and then a shuffled order.<br>
  * <b>Copyright:</b> Copyright (c) 2023<br>
  * <b>Company:</b> Silicon Mountain Technologies<br>
  * 
@@ -21,7 +22,9 @@ import java.util.List;
 public class PeopleList {
 
 	/**
-	 * Builds an ArrayList and then displays the list in the console in an ordered list and then a shuffled list
+	 * Builds an ArrayList and then displays the list in the console in an ordered
+	 * list and then a shuffled list
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -41,9 +44,11 @@ public class PeopleList {
 		p.displayList(people);
 		p.displayShuffleList(people);
 	}
-	
+
 	/**
-	 * This method takes an Array List and prints it to the console in its inherent order
+	 * This method takes an Array List and prints it to the console in its inherent
+	 * order
+	 * 
 	 * @param p Takes a paramater of an List of Person objects.
 	 */
 	public void displayList(List<Person> p) {
@@ -55,7 +60,9 @@ public class PeopleList {
 	}
 
 	/**
-	 * This method takes an Array list, shuffles the order and prints the shuffled list to the console.
+	 * This method takes an Array list, shuffles the order and prints the shuffled
+	 * list to the console.
+	 * 
 	 * @param p Takes a paramater of an List of Person objects.
 	 */
 	public void displayShuffleList(List<Person> p) {
@@ -67,7 +74,9 @@ public class PeopleList {
 	}
 
 	/**
-	 * This method deconstructs a Person object's state into a consumable format (ID, First Name, Last Name).
+	 * This method deconstructs a Person object's state into a consumable format
+	 * (ID, First Name, Last Name).
+	 * 
 	 * @param p Takes a parameter of a single instance of a Person object
 	 */
 	public void printPerson(Person p) {
@@ -79,6 +88,7 @@ public class PeopleList {
 
 	/**
 	 * This method shuffles a given ArrayList for a Person object
+	 * 
 	 * @param p Takes a paramter of a single instance of a Person object
 	 */
 	public void shuffleList(List<Person> p) {

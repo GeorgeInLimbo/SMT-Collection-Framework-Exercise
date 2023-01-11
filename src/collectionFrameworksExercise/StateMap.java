@@ -19,26 +19,29 @@ import java.util.TreeMap;
 public class StateMap {
 
 	/**
-	 * This main method populates a TreeMap and utilizes methods from the class to display the items in the console in both conventional and reverse order.
+	 * This main method populates a TreeMap and utilizes methods from the class to
+	 * display the items in the console in both conventional and reverse order.
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
+
 		StateMap m = new StateMap();
 		TreeMap<String, String> states = new TreeMap<>();
-		
+
 		states.put("CO", "Colorado");
 		states.put("ID", "Idaho");
 		states.put("IL", "Illinois");
 		states.put("HI", "Hawaii");
 		states.put("AK", "Alaska");
-		
+
 		m.printMap(states);
 		m.printMapReverse(states);
 	}
-	
+
 	/**
 	 * This method prints a TreeMap in it's inherent order.
+	 * 
 	 * @param m Takes a parameter of a TreeMap with a requirement for two Strings
 	 */
 	public void printMap(TreeMap<String, String> m) {
@@ -46,7 +49,7 @@ public class StateMap {
 		System.out.println(m);
 		System.out.println();
 	}
-	
+
 	/**
 	 * 
 	 * @param m Takes a parameter of a TreeMap with a requirement for two Strings
